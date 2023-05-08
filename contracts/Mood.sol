@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
 // Uncomment this line to use console.log
-import "hardhat/console.sol";
+// import "hardhat/console.sol";
 
 contract Mood {
     string public mood;
@@ -12,7 +12,7 @@ contract Mood {
     }
 
     function getMood() public view returns(string memory) {
-        console.log('MOOD: %s', mood);
+        // console.log('MOOD: %s', mood);
         return mood;
     }
 }
